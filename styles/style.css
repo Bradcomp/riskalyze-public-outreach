@@ -39,3 +39,10 @@ li {
 p {
     text-align: right
 }
+.advertisement {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 100px;
+    max-width: 456px
+}
