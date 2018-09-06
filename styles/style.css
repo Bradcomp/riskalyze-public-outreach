@@ -9,24 +9,27 @@ p {
 }
 
 #securities, #client-securities {
-    min-height: 15px;
-    
+    min-height: 60px;
+    border: 1px solid #7E8890;
+    box-shadow: -11px 6px 25px -6px rgba(117,117,117,1);
+    border-radius: 6px;
+
 }
+ul {
+    -webkit-padding-start: 0;
+}
+
 li strong {
-    display: inline-block;
     float: left;
 }
 li img {
-    display: inline-block;
     float: right;
 }
 body section {
     max-width: 600px;
     margin: auto
 }
-#securities, #client-securities {
-    min-height: 15px;
-}
+
 header {
     background-color:#BCBEC0;
      font-size: 50px;
