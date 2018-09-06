@@ -1,378 +1,425 @@
 [
   {
-    "Name": "Google",
-    "Risk Number": 89,
-    "Worst Case": -24.12,
-    "Best Case": 43.21,
-    "Return": 9.54,
-    "Volatility": 20.53
+    "name": "Google",
+    "symbol": "GSOHG",
+    "riskNumber": 89,
+    "worstCase": -24.12,
+    "bestCase": 43.21,
+    "return": 9.54,
+    "volatility": 20.53
   },
   {
-    "Name": "Microsoft Corporation",
-    "Risk Number": 87,
-    "Worst Case": -22.23,
-    "Best Case": 35.74,
-    "Return": 6.75,
-    "Volatility": 17.67
+    "name": "Microsoft Corporation",
+    "symbol": "GDOHS",
+    "riskNumber": 87,
+    "worstCase": -22.23,
+    "bestCase": 35.74,
+    "return": 6.75,
+    "volatility": 17.67
   },
   {
-    "Name": "Facebook",
-    "Risk Number": 99,
-    "Worst Case": -61.45,
-    "Best Case": 80.54,
-    "Return": 9.54,
-    "Volatility": 43.29
+    "name": "Facebook",
+    "symbol": "OVHEI",
+    "riskNumber": 99,
+    "worstCase": -61.45,
+    "bestCase": 80.54,
+    "return": 9.54,
+    "volatility": 43.29
   },
   {
-    "Name": "Baidu",
-    "Risk Number": 97,
-    "Worst Case": -44.05,
-    "Best Case": 63.14,
-    "Return": 9.54,
-    "Volatility": 32.68
+    "name": "Baidu",
+    "symbol": "BCOD",
+    "riskNumber": 97,
+    "worstCase": -44.05,
+    "bestCase": 63.14,
+    "return": 9.54,
+    "volatility": 32.68
   },
   {
-    "Name": "United Airlines",
-    "Risk Number": 61,
-    "Worst Case": -12.46,
-    "Best Case": 15.88,
-    "Return": 1.71,
-    "Volatility": 8.64
+    "name": "United Airlines",
+    "symbol": "HDOR",
+    "riskNumber": 61,
+    "worstCase": -12.46,
+    "bestCase": 15.88,
+    "return": 1.71,
+    "volatility": 8.64
   },
   {
-    "Name": "Southwest Airlines",
-    "Risk Number": 94,
-    "Worst Case": -33.49,
-    "Best Case": 43.99,
-    "Return": 5.25,
-    "Volatility": 23.62
+    "name": "Southwest Airlines",
+    "symbol": "BSOT",
+    "riskNumber": 94,
+    "worstCase": -33.49,
+    "bestCase": 43.99,
+    "return": 5.25,
+    "volatility": 23.62
   },
   {
-    "Name": "Jetblue Airways",
-    "Risk Number": 98,
-    "Worst Case": -53.83,
-    "Best Case": 53.97,
-    "Return": 0.07,
-    "Volatility": 32.86
+    "name": "Jetblue Airways",
+    "symbol": "GSOW",
+    "riskNumber": 98,
+    "worstCase": -53.83,
+    "bestCase": 53.97,
+    "return": 0.07,
+    "volatility": 32.86
   },
   {
-    "Name": "Bayerische Motoren Werke AG",
-    "Risk Number": 97,
-    "Worst Case": -42.74,
-    "Best Case": 54.67,
-    "Return": 5.97,
-    "Volatility": 29.7
+    "name": "Bayerische Motoren Werke AG",
+    "symbol": "PWMN",
+    "riskNumber": 97,
+    "worstCase": -42.74,
+    "bestCase": 54.67,
+    "return": 5.97,
+    "volatility": 29.7
   },
   {
-    "Name": "Tesla Motors",
-    "Risk Number": 99,
-    "Worst Case": -78.35,
-    "Best Case": 97.44,
-    "Return": 9.54,
-    "Volatility": 53.6
+    "name": "Tesla Motors",
+    "symbol": "HDOK",
+    "riskNumber": 99,
+    "worstCase": -78.35,
+    "bestCase": 97.44,
+    "return": 9.54,
+    "volatility": 53.6
   },
   {
-    "Name": "Twitter",
-    "Risk Number": 99,
-    "Worst Case": -100,
-    "Best Case": 97.43,
-    "Return": -2.59,
-    "Volatility": 60.99
+    "name": "Twitter",
+    "symbol": "NSOT",
+    "riskNumber": 99,
+    "worstCase": -100,
+    "bestCase": 97.43,
+    "return": -2.59,
+    "volatility": 60.99
   },
   {
-    "Name": "Intelsat S.A.",
-    "Risk Number": 99,
-    "Worst Case": -98.39,
-    "Best Case": 101.66,
-    "Return": 1.63,
-    "Volatility": 60.99
+    "name": "Intelsat S.A.",
+    "symbol": "BDOC",
+    "riskNumber": 99,
+    "worstCase": -98.39,
+    "bestCase": 101.66,
+    "return": 1.63,
+    "volatility": 60.99
   },
   {
-    "Name": "Apple",
-    "Risk Number": 91,
-    "Worst Case": -26.26,
-    "Best Case": 45.34,
-    "Return": 9.54,
-    "Volatility": 21.83
+    "name": "Apple",
+    "symbol": "JDOXC",
+    "riskNumber": 91,
+    "worstCase": -26.26,
+    "bestCase": 45.34,
+    "return": 9.54,
+    "volatility": 21.83
   },
   {
-    "Name": "Amazon",
-    "Risk Number": 92,
-    "Worst Case": -29.67,
-    "Best Case": 48.85,
-    "Return": 9.54,
-    "Volatility": 23.96
+    "name": "Amazon",
+    "symbol": "HDOH",
+    "riskNumber": 92,
+    "worstCase": -29.67,
+    "bestCase": 48.85,
+    "return": 9.54,
+    "volatility": 23.96
   },
   {
-    "Name": "Johnson & Johnson",
-    "Risk Number": 65,
-    "Worst Case": -13.63,
-    "Best Case": 22.92,
-    "Return": 4.65,
-    "Volatility": 11.14
+    "name": "Johnson & Johnson",
+    "symbol": "HDOJ",
+    "riskNumber": 65,
+    "worstCase": -13.63,
+    "bestCase": 22.92,
+    "return": 4.65,
+    "volatility": 11.14
   },
   {
-    "Name": "Walt Disney cOMPANY",
-    "Risk Number": 88,
-    "Worst Case": -23.33,
-    "Best Case": 35.97,
-    "Return": 6.32,
-    "Volatility": 18.08
+    "name": "Walt Disney cOMPANY",
+    "symbol": "HSOJH",
+    "riskNumber": 88,
+    "worstCase": -23.33,
+    "bestCase": 35.97,
+    "return": 6.32,
+    "volatility": 18.08
   },
   {
-    "Name": "Solar Capital Prf",
-    "Risk Number": 53,
-    "Worst Case": -10.35,
-    "Best Case": 18.07,
-    "Return": 3.86,
-    "Volatility": 8.66
+    "name": "Solar Capital Prf",
+    "symbol": "QISHT",
+    "riskNumber": 53,
+    "worstCase": -10.35,
+    "bestCase": 18.07,
+    "return": 3.86,
+    "volatility": 8.66
   },
   {
-    "Name": "AMER HMS",
-    "Risk Number": 31,
-    "Worst Case": -4.36,
-    "Best Case": 13.41,
-    "Return": 4.53,
-    "Volatility": 5.42
+    "name": "AMER HMS",
+    "symbol": "QOSNF",
+    "riskNumber": 31,
+    "worstCase": -4.36,
+    "bestCase": 13.41,
+    "return": 4.53,
+    "volatility": 5.42
   },
   {
-    "Name": "HMS Holdings Corp",
-    "Risk Number": 95,
-    "Worst Case": -36.62,
-    "Best Case": 55.71,
-    "Return": 9.54,
-    "Volatility": 28.15
+    "name": "HMS Holdings Corp",
+    "symbol": "HSPOX",
+    "riskNumber": 95,
+    "worstCase": -36.62,
+    "bestCase": 55.71,
+    "return": 9.54,
+    "volatility": 28.15
   },
   {
-    "Name": "Buffalo Wild Wings",
-    "Risk Number": 96,
-    "Worst Case": -38.54,
-    "Best Case": 56.53,
-    "Return": 8.99,
-    "Volatility": 28.98
+    "name": "Buffalo Wild Wings",
+    "symbol": "SIXH",
+    "riskNumber": 96,
+    "worstCase": -38.54,
+    "bestCase": 56.53,
+    "return": 8.99,
+    "volatility": 28.98
   },
   {
-    "Name": "iROBOT",
-    "Risk Number": 98,
-    "Worst Case": -51.87,
-    "Best Case": 63.53,
-    "Return": 5.83,
-    "Volatility": 35.18
+    "name": "iROBOT",
+    "symbol": "GSOGD",
+    "riskNumber": 98,
+    "worstCase": -51.87,
+    "bestCase": 63.53,
+    "return": 5.83,
+    "volatility": 35.18
   },
   {
-    "Name": "IPG Photonics Corporation",
-    "Risk Number": 98,
-    "Worst Case": -46.73,
-    "Best Case": 63.47,
-    "Return": 8.37,
-    "Volatility": 33.6
+    "name": "IPG Photonics Corporation",
+    "symbol": "JSOH",
+    "riskNumber": 98,
+    "worstCase": -46.73,
+    "bestCase": 63.47,
+    "return": 8.37,
+    "volatility": 33.6
   },
   {
-    "Name": "Team",
-    "Risk Number": 97,
-    "Worst Case": -43.62,
-    "Best Case": 50.88,
-    "Return": 3.63,
-    "Volatility": 28.81
+    "name": "Team",
+    "symbol": "OSHY",
+    "riskNumber": 97,
+    "worstCase": -43.62,
+    "bestCase": 50.88,
+    "return": 3.63,
+    "volatility": 28.81
   },
   {
-    "Name": "Hawkins",
-    "Risk Number": 93,
-    "Worst Case": -31.19,
-    "Best Case": 42.38,
-    "Return": 5.6,
-    "Volatility": 22.43
+    "name": "Hawkins",
+    "symbol": "SBHS",
+    "riskNumber": 93,
+    "worstCase": -31.19,
+    "bestCase": 42.38,
+    "return": 5.6,
+    "volatility": 22.43
   },
   {
-    "Name": "Emergent Biosolutions",
-    "Risk Number": 97,
-    "Worst Case": -40.75,
-    "Best Case": 55.24,
-    "Return": 7.24,
-    "Volatility": 29.27
+    "name": "Emergent Biosolutions",
+    "symbol": "OSJH",
+    "riskNumber": 97,
+    "worstCase": -40.75,
+    "bestCase": 55.24,
+    "return": 7.24,
+    "volatility": 29.27
   },
   {
-    "Name": "Exlservice Holdings",
-    "Risk Number": 96,
-    "Worst Case": -38.83,
-    "Best Case": 48.93,
-    "Return": 5.3,
-    "Volatility": 26.6
+    "name": "Exlservice Holdings",
+    "symbol": "JDOK",
+    "riskNumber": 96,
+    "worstCase": -38.83,
+    "bestCase": 48.93,
+    "return": 5.3,
+    "volatility": 26.6
   },
   {
-    "Name": "Healthstream",
-    "Risk Number": 95,
-    "Worst Case": -36.39,
-    "Best Case": 55.38,
-    "Return": 9.54,
-    "Volatility": 27.95
+    "name": "Healthstream",
+    "symbol": "WOSJ",
+    "riskNumber": 95,
+    "worstCase": -36.39,
+    "bestCase": 55.38,
+    "return": 9.54,
+    "volatility": 27.95
   },
   {
-    "Name": "Interactive Intelligence",
-    "Risk Number": 97,
-    "Worst Case": -41.56,
-    "Best Case": 60.65,
-    "Return": 9.54,
-    "Volatility": 31.16
+    "name": "Interactive Intelligence",
+    "symbol": "SJXIOH",
+    "riskNumber": 97,
+    "worstCase": -41.56,
+    "bestCase": 60.65,
+    "return": 9.54,
+    "volatility": 31.16
   },
   {
-    "Name": "Twilio Inc Cl A",
-    "Risk Number": 99,
-    "Worst Case": -90.48,
-    "Best Case": 109.57,
-    "Return": 9.54,
-    "Volatility": 60.99
+    "name": "Twilio Inc Cl A",
+    "symbol": "HSOIH",
+    "riskNumber": 99,
+    "worstCase": -90.48,
+    "bestCase": 109.57,
+    "return": 9.54,
+    "volatility": 60.99
   },
   {
-    "Name": "Immersion Corp",
-    "Risk Number": 99,
-    "Worst Case": -69.5,
-    "Best Case": 76.39,
-    "Return": 3.45,
-    "Volatility": 44.48
+    "name": "Immersion Corp",
+    "symbol": "HSOGK",
+    "riskNumber": 99,
+    "worstCase": -69.5,
+    "bestCase": 76.39,
+    "return": 3.45,
+    "volatility": 44.48
   },
   {
-    "Name": "Axon Enterprise Inc",
-    "Risk Number": 99,
-    "Worst Case": -59.51,
-    "Best Case": 70.94,
-    "Return": 5.71,
-    "Volatility": 39.77
+    "name": "Axon Enterprise Inc",
+    "symbol": "SVXOR",
+    "riskNumber": 99,
+    "worstCase": -59.51,
+    "bestCase": 70.94,
+    "return": 5.71,
+    "volatility": 39.77
   },
   {
-    "Name": "Enova Intl Inc",
-    "Risk Number": 99,
-    "Worst Case": -97.27,
-    "Best Case": 102.78,
-    "Return": 2.75,
-    "Volatility": 60.99
+    "name": "Enova Intl Inc",
+    "symbol": "BDOG",
+    "riskNumber": 99,
+    "worstCase": -97.27,
+    "bestCase": 102.78,
+    "return": 2.75,
+    "volatility": 60.99
   },
   {
-    "Name": "Sunrun Inc",
-    "Risk Number": 99,
-    "Worst Case": -97.4,
-    "Best Case": 102.65,
-    "Return": 2.63,
-    "Volatility": 60.99
+    "name": "Sunrun Inc",
+    "symbol": "OWTEO",
+    "riskNumber": 99,
+    "worstCase": -97.4,
+    "bestCase": 102.65,
+    "return": 2.63,
+    "volatility": 60.99
   },
   {
-    "Name": "Okta",
-    "Risk Number": 99,
-    "Worst Case": -88.72,
-    "Best Case": 107.81,
-    "Return": 9.54,
-    "Volatility": 59.92
+    "name": "Okta",
+    "symbol": "OWHX",
+    "riskNumber": 99,
+    "worstCase": -88.72,
+    "bestCase": 107.81,
+    "return": 9.54,
+    "volatility": 59.92
   },
   {
-    "Name": "Cray",
-    "Risk Number": 99,
-    "Worst Case": -74.21,
-    "Best Case": 71.75,
-    "Return": -1.23,
-    "Volatility": 44.5
+    "name": "Cray",
+    "symbol": "HSOHU",
+    "riskNumber": 99,
+    "worstCase": -74.21,
+    "bestCase": 71.75,
+    "return": -1.23,
+    "volatility": 44.5
   },
   {
-    "Name": "TivO",
-    "Risk Number": 99,
-    "Worst Case": -62.43,
-    "Best Case": 67.1,
-    "Return": 2.33,
-    "Volatility": 39.49
+    "name": "TivO",
+    "symbol": "XBXOH",
+    "riskNumber": 99,
+    "worstCase": -62.43,
+    "bestCase": 67.1,
+    "return": 2.33,
+    "volatility": 39.49
   },
   {
-    "Name": "Vanguard Interm-Term Bond Index Inv",
-    "Risk Number": 27,
-    "Worst Case": -3.47,
-    "Best Case": 8.07,
-    "Return": 2.3,
-    "Volatility": 3.52
+    "name": "Vanguard Interm-Term Bond Index Inv",
+    "symbol": "DHDOJ",
+    "riskNumber": 27,
+    "worstCase": -3.47,
+    "bestCase": 8.07,
+    "return": 2.3,
+    "volatility": 3.52
   },
   {
-    "Name": "Vanguard Mid Cap Index Admiral",
-    "Risk Number": 72,
-    "Worst Case": -15.71,
-    "Best Case": 24.25,
-    "Return": 4.27,
-    "Volatility": 12.18
+    "name": "Vanguard Mid Cap Index Admiral",
+    "symbol": "HSOHJ",
+    "riskNumber": 72,
+    "worstCase": -15.71,
+    "bestCase": 24.25,
+    "return": 4.27,
+    "volatility": 12.18
   },
   {
-    "Name": "iShares 1-3 Year Credit Bond",
-    "Risk Number": 17,
-    "Worst Case": -1.29,
-    "Best Case": 3.82,
-    "Return": 1.26,
-    "Volatility": 1.56
+    "name": "iShares 1-3 Year Credit Bond",
+    "symbol": "HKDOW",
+    "riskNumber": 17,
+    "worstCase": -1.29,
+    "bestCase": 3.82,
+    "return": 1.26,
+    "volatility": 1.56
   },
   {
-    "Name": "SPDR® Nuveen Barclays ST Muni Bd ETF",
-    "Risk Number": 24,
-    "Worst Case": -2.66,
-    "Best Case": 4.73,
-    "Return": 1.03,
-    "Volatility": 2.25
+    "name": "SPDRÂ® Nuveen Barclays ST Muni Bd ETF",
+    "symbol": "QOWHX",
+    "riskNumber": 24,
+    "worstCase": -2.66,
+    "bestCase": 4.73,
+    "return": 1.03,
+    "volatility": 2.25
   },
   {
-    "Name": "Western Asset Managed Municipals A",
-    "Risk Number": 30,
-    "Worst Case": -4.2,
-    "Best Case": 8.7,
-    "Return": 2.25,
-    "Volatility": 3.93
+    "name": "Western Asset Managed Municipals A",
+    "symbol": "PSJXK",
+    "riskNumber": 30,
+    "worstCase": -4.2,
+    "bestCase": 8.7,
+    "return": 2.25,
+    "volatility": 3.93
   },
   {
-    "Name": "PIMCO Total Return Active ETF",
-    "Risk Number": 23,
-    "Worst Case": -2.21,
-    "Best Case": 5.84,
-    "Return": 1.82,
-    "Volatility": 2.46
+    "name": "PIMCO Total Return Active ETF",
+    "symbol": "JDOSJ",
+    "riskNumber": 23,
+    "worstCase": -2.21,
+    "bestCase": 5.84,
+    "return": 1.82,
+    "volatility": 2.46
   },
   {
-    "Name": "Deutsche US Bond Index A",
-    "Risk Number": 22,
-    "Worst Case": -2,
-    "Best Case": 4.84,
-    "Return": 1.42,
-    "Volatility": 2.08
+    "name": "Deutsche US Bond Index A",
+    "symbol": "KWOKS",
+    "riskNumber": 22,
+    "worstCase": -2,
+    "bestCase": 4.84,
+    "return": 1.42,
+    "volatility": 2.08
   },
   {
-    "Name": "ALASKA MUN BOND BANKALASKA MUN BOND BANKAUTH RFDG SER ONE 5.000% 02/01/28 B/E",
-    "Risk Number": 46,
-    "Worst Case": -8.51,
-    "Best Case": 13.51,
-    "Return": 2.5,
-    "Volatility": 6.71
+    "name": "ALASKA MUN BOND BANKALASKA MUN BOND BANKAUTH RFDG SER ONE 5.000% 02/01/28 B/E",
+    "symbol": "XMZJS",
+    "riskNumber": 46,
+    "worstCase": -8.51,
+    "bestCase": 13.51,
+    "return": 2.5,
+    "volatility": 6.71
   },
   {
-    "Name": "First American High Income Bond Fd Cl B",
-    "Risk Number": 59,
-    "Worst Case": -11.96,
-    "Best Case": 11.96,
-    "Return": 0,
-    "Volatility": 7.29
+    "name": "First American High Income Bond Fd Cl B",
+    "symbol": "MXLSS",
+    "riskNumber": 59,
+    "worstCase": -11.96,
+    "bestCase": 11.96,
+    "return": 0,
+    "volatility": 7.29
   },
   {
-    "Name": "UBS Australian Bond Comp",
-    "Risk Number": 5,
-    "Worst Case": -0.3,
-    "Best Case": 6.37,
-    "Return": 3.03,
-    "Volatility": 2.03
+    "name": "UBS Australian Bond Comp",
+    "symbol": "OSTKA",
+    "riskNumber": 5,
+    "worstCase": -0.3,
+    "bestCase": 6.37,
+    "return": 3.03,
+    "volatility": 2.03
   },
   {
-    "Name": "American Funds Interm Bd Fd of Amer C",
-    "Risk Number": 21,
-    "Worst Case": -1.71,
-    "Best Case": 3.16,
-    "Return": 0.72,
-    "Volatility": 1.48
+    "name": "American Funds Interm Bd Fd of Amer C",
+    "symbol": "QPSIW",
+    "riskNumber": 21,
+    "worstCase": -1.71,
+    "bestCase": 3.16,
+    "return": 0.72,
+    "volatility": 1.48
   },
   {
-    "Name": "The Tax-Exempt Bond Fund of America Class",
-    "Risk Number": 27,
-    "Worst Case": -3.41,
-    "Best Case": 7.33,
-    "Return": 1.96,
-    "Volatility": 3.27
+    "name": "The Tax-Exempt Bond Fund of America Class",
+    "symbol": "OSJSO",
+    "riskNumber": 27,
+    "worstCase": -3.41,
+    "bestCase": 7.33,
+    "return": 1.96,
+    "volatility": 3.27
   }
 ]
