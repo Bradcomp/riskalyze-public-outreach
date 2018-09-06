@@ -10,6 +10,15 @@ p {
 
 #securities, #client-securities {
     min-height: 15px;
+    
+}
+li strong {
+    display: inline-block;
+    float: left;
+}
+li img {
+    display: inline-block;
+    float: right;
 }
 body section {
     max-width: 600px;
@@ -17,7 +26,6 @@ body section {
 }
 #securities, #client-securities {
     min-height: 15px;
-    columns: 3;
 }
 header {
     background-color:#BCBEC0;
@@ -28,15 +36,17 @@ header {
      max-width: 100%;
 }
 li {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: azure;
     border-color: black;
     border-width: 2px;
     margin: 3px;
-    padding: 10px 60px
+    padding: 10px 30px;
+    height: 3em;
+    list-style-type: none;
 }
 p {
     text-align: right
+}
+.risk-number-img {
+    width: 3em;
 }

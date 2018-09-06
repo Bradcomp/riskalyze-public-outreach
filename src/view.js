@@ -14,11 +14,22 @@ View.prototype.render = function(state) {
     const secsContainer = this.securitiesContainer;
     secsContainer.innerHTML = "";
     secs.forEach(function(sec) {
-        var item = document.createElement('li');
-        item.appendChild(document.createTextNode(sec.name + " - (" + sec.symbol + ")"));
-        item.id = sec.symbol;
-        item.classList.add("securities");
-        secsContainer.appendChild(item);
+        return addSecurity(secsContainer, sec);
     });
 
+}
+
+function addSecurity(container, security) {
+    var img = document.createElement('img');
+        img.src = "risk-numbers/r" + security.riskNumber + ".svg";
+        img.alt = "risk number " + security.riskNumber;
+        img.classList.add("risk-number-img");
+        var txt = document.createElement("strong");
+        txt.appendChild(document.createTextNode(security.name + " - (" + security.symbol + ")"));
+        var item = document.createElement('li');
+        item.appendChild(txt);
+        item.appendChild(img);
+        item.id = security.symbol;
+        item.classList.add("securities");
+        container.appendChild(item);
 }
