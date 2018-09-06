@@ -3,15 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>GAME TIME!</title>
+    <link rel="stylesheet" href="styles/dragula.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <!-- page content -->
-      <header>
-          SO YOU WANT TO BE AN ADVISOR?
-      </header>
+    <header>
+        SO YOU WANT TO BE AN ADVISOR?
+    </header>
+
     <section>
+      <h2>Available Securities</h2>
+      <ul id="securities">
+
+      </ul>
 <h2> Stocks </h2>
+
   <ul>
     <li>DOG</li>
     <li>KAT</li>
@@ -19,15 +26,20 @@
     <li>LZD</li>
   </ul>
     </section>
+
     <section class=portfolio>
       <h2>Client Portfolio</h2>
+
+        <p>Goal</p>
         <p>Goal:</p><img class=risk_number>
-       <ul>
-        <li class=security>OWL</li>
-        <li class=security>FRRET</li>
-        <li class=securitys>CHIMP</li>
+        <ul id="client-securities">
+         <li class=security>OWL</li>
+         <li class=security>FRRET</li>
+         <li class=securitys>CHIMP</li>
        </ul>
+
     </section>
+    <footer>Score:</footer>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
     <script src="src/utils.js"></script>
@@ -41,6 +53,5 @@
       game.start();
       game.newClient();
     </script>
-    <footer>Score:</footer>
   </body>
 </html>

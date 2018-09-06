@@ -1,7 +1,6 @@
 html{
     background-color: #EFF1F6
 }
-
 section {
     overflow: scroll
 }
@@ -15,6 +14,9 @@ p {
 body section {
     max-width: 600px;
     margin: auto
+}
+#securities, #client-securities {
+    min-height: 15px
 }
 header {
     background-color:#BCBEC0;
