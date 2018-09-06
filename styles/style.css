@@ -1,5 +1,22 @@
 html{
     background-color: #EFF1F6
 }
-header {height: 50px; background-color:#BCBEC0; font-size: 50px;color:#0099cd; text-align: center}
-section {display: flex; flex-wrap: wrap; flex-direction: column}
+header {
+    background-color:#BCBEC0;
+     font-size: 50px;
+     color:#0099cd;
+     text-align: center;
+     padding: 10px 60px
+}
+li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: azure;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px 60px
+}
+p {
+    text-align: right
+}
