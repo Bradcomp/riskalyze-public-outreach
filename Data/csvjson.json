@@ -1,4 +1,4 @@
-[
+window.data = [
   {
     "name": "Google",
     "symbol": "GSOHG",

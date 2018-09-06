@@ -1,12 +1,12 @@
-function View() {
-    var view = this;
+function View(game) {
+    this.game = game;
     this.securitiesContainer = document.getElementById('securities');
     this.clientSecurities = document.getElementById('client-securities');
     this.dnd = dragula([this.securitiesContainer, this.clientSecurities]);
     
     this.dnd.on('drop', function(el) {
-        console.log(el.innerHTML);
-    })
+        game.state.moveSecurity(el.id);
+    });
 }
 
 View.prototype.render = function(state) {
