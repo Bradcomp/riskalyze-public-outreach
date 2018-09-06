@@ -29,9 +29,11 @@ li {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: azure;
-    border-style: solid;
     border-color: black;
     border-width: 2px;
     margin: 3px;
     padding: 10px 60px
+}
+p {
+    text-align: right
 }
