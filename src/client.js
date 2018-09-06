@@ -24,7 +24,7 @@ function getClient() {
       })
 
     var clientData = superagent
-        .get("https://randomuser.me/api/")
+        .get("https://randomuser.me/api?nat=US")
         .then(function(data){
             return data.body.results[0];
         });
