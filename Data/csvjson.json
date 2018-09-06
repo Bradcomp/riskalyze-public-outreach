@@ -378,7 +378,7 @@ window.data = [
     "volatility": 2.08
   },
   {
-    "name": "ALASKA MUN BOND BANKALASKA MUN BOND BANKAUTH RFDG SER ONE 5.000% 02/01/28 B/E",
+    "name": "ALASKA MUN BOND BANKALASKA MUN BOND",
     "symbol": "XMZJS",
     "riskNumber": 46,
     "worstCase": -8.51,
