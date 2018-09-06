@@ -1,18 +1,30 @@
 html{
     background-color: #EFF1F6
 }
-<<<<<<< HEAD
-header {height: 50px; background-color:#BCBEC0; font-size: 50px;color:#0099cd; text-align: center}
-section {display: flex; flex-wrap: wrap; flex-direction: column}
+section {
+    overflow: scroll
+}
+p {
+    text-align: right
+}
+
 #securities, #client-securities {
     min-height: 15px;
-=======
+}
+body section {
+    max-width: 600px;
+    margin: auto
+}
+#securities, #client-securities {
+    min-height: 15px
+}
 header {
     background-color:#BCBEC0;
      font-size: 50px;
      color:#0099cd;
      text-align: center;
-     padding: 10px 60px
+     padding: 10px 60px;
+     max-width: 100%;
 }
 li {
     display: flex;
@@ -21,9 +33,9 @@ li {
     background-color: azure;
     border-color: black;
     border-width: 2px;
+    margin: 3px;
     padding: 10px 60px
 }
 p {
     text-align: right
->>>>>>> c80273d4b862c762bb014b2c9dd3e744422570ad
 }
