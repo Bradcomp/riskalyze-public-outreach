@@ -1,8 +1,29 @@
 html{
     background-color: #EFF1F6
 }
+<<<<<<< HEAD
 header {height: 50px; background-color:#BCBEC0; font-size: 50px;color:#0099cd; text-align: center}
 section {display: flex; flex-wrap: wrap; flex-direction: column}
 #securities, #client-securities {
     min-height: 15px;
+=======
+header {
+    background-color:#BCBEC0;
+     font-size: 50px;
+     color:#0099cd;
+     text-align: center;
+     padding: 10px 60px
+}
+li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: azure;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px 60px
+}
+p {
+    text-align: right
+>>>>>>> c80273d4b862c762bb014b2c9dd3e744422570ad
 }
