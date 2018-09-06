@@ -2,7 +2,7 @@ html{
     background-color: #EFF1F6
 }
 section {
-    overflow: scroll
+    overflow: scroll;
 }
 p {
     text-align: right
@@ -11,31 +11,21 @@ p {
 #securities, #client-securities {
     min-height: 15px;
 }
-body section {
-    max-width: 600px;
-    margin: auto
-}
+
 #securities, #client-securities {
-    min-height: 15px;
-    columns: 3;
+    min-height: 15px
 }
 header {
     background-color:#BCBEC0;
      font-size: 50px;
      color:#0099cd;
      text-align: center;
-     padding: 10px 60px;
      max-width: 100%;
 }
 li {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: azure;
     border-color: black;
     border-width: 2px;
-    margin: 3px;
-    padding: 10px 60px
 }
 p {
     text-align: right
@@ -46,4 +36,8 @@ p {
     left: 0;
     top: 100px;
     max-width: 456px
+}
+#client-panel{
+}
+#securities-panel{
 }
