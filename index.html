@@ -1,62 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>GAME TIME!</title>
-    <link rel="stylesheet" href="styles/dragula.css">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    <!-- page content -->
-    <header>
-        SO YOU WANT TO BE AN ADVISOR?
-    </header>
-  
-    <section>
-<<<<<<< HEAD
-      <h2>Available Securities</h2>
-      <ul id="securities">
 
-      </ul>
-=======
-<h2> Stocks </h2>
-<li>DOG</li>
-<li>KAT</li>
-<li>BRD</li>
-<li>LZD</li>
->>>>>>> c80273d4b862c762bb014b2c9dd3e744422570ad
-    </section>
-    
-    <section class=portfolio>
-      <h2>Client Portfolio</h2>
-<<<<<<< HEAD
-        <p>Goal</p>
-        <ul id="client-securities">
-        <li>OWL</li>
-        <li>FRRET</li>
-        <li>CHIMP</li>
-      </ul>
-=======
-        <p>Goal:</p><img class=risk_number>
-        <li class=security>OWL</li>
-        <li class=security>FRRET</li>
-        <li class=securitys>CHIMP</li>
->>>>>>> c80273d4b862c762bb014b2c9dd3e744422570ad
-    </section>
-    <footer>Score:</footer>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
-    <script src="src/utils.js"></script>
-    <script src='src/security.js'></script>
-    <script src='src/state.js'></script>
-    <script src='src/view.js'></script>
-    <script src='src/client.js'></script>
-    <script src="src/game.js"></script>
-    <script>
-      window.game = new Game();
-      game.start();
-      game.newClient();
-    </script>
-    
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>GAME TIME!</title>
+  <link rel="stylesheet" href="styles/dragula.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <!-- page content -->
+  <header>
+    SO YOU WANT TO BE AN ADVISOR?
+  </header>
+
+  <section>
+    <h2>Available Securities</h2>
+    <ul id="securities">
+
+    </ul>
+  </section>
+
+  <section class=portfolio>
+    <h2>Client Portfolio</h2>
+    <p>Goal:</p><img class=risk_number>
+    <ol id="client-securities">
+      <li class=security>OWL</li>
+      <li class=security>FRRET</li>
+      <li class=security>CHIMP</li>
+    </ol>
+  </section>
+  <footer>Score:</footer>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
+  <script src="src/utils.js"></script>
+  <script src='src/security.js'></script>
+  <script src='src/state.js'></script>
+  <script src='src/view.js'></script>
+  <script src='src/client.js'></script>
+  <script src="src/game.js"></script>
+  <script>
+    window.game = new Game();
+    game.start();
+    game.newClient();
+  </script>
+
+</body>
+
 </html>
