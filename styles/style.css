@@ -3,3 +3,6 @@ html{
 }
 header {height: 50px; background-color:#BCBEC0; font-size: 50px;color:#0099cd; text-align: center}
 section {display: flex; flex-wrap: wrap; flex-direction: column}
+#securities, #client-securities {
+    min-height: 15px;
+}

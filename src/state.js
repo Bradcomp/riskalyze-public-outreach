@@ -3,12 +3,12 @@ function State(securities) {
 }
 
 State.prototype.addSecurity = function(security) {
-    this._player.currentSecurities = this._player.currentSecurities.concat([security]);
+    this.client.currentSecurities = this._player.currentSecurities.concat([security]);
     this.normalizeSecurities();
 };
 
 State.prototype.removeSecurity = function(security) {
-    this._player.currentSecurities = this._player.currentSecurities.filter(function(sec) {
+    this.client.currentSecurities = this._player.currentSecurities.filter(function(sec) {
         return sec.symbol !== security.symbol;
     });
     this._securities.concat([security]);

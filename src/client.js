@@ -33,7 +33,6 @@ function getClient() {
         .then(function(arr){
             const client = arr[0];
             const dogPic = arr[1];
-            console.log(client);
             const pic = client.picture.medium;
             return new Client(
                 capitalize(client.name.first), 
