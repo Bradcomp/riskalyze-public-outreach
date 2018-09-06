@@ -16,7 +16,8 @@ body section {
     margin: auto
 }
 #securities, #client-securities {
-    min-height: 15px
+    min-height: 15px;
+    columns: 3;
 }
 header {
     background-color:#BCBEC0;
