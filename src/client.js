@@ -2,14 +2,14 @@ function Client(firstName, lastName, imageURL) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.imageURL = imageURL;
-    this.riskScore = getRiskScore();
+    this.riskNumber = getRiskNumber();
     // Where they want to be in 6 months - in percentage
-    this.goal = getGoal(this.riskScore);
+    this.goal = getGoal(this.riskNumber).toFixed(1);
 
     this.securities = [];
 }
 
-function getRiskScore() {
+function getRiskNumber() {
     return randomInt(0, 100);
 }
 function getGoal(riskScore) {
@@ -37,7 +37,7 @@ function getClient() {
             return new Client(
                 capitalize(client.name.first), 
                 capitalize(client.name.last), 
-                randomPick([pic, pic, pic, pic, dogPic])
+                randomPick([pic, pic, dogPic])
             )
         })
         .catch(function(err) {

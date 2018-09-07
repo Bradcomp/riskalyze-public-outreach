@@ -26,7 +26,24 @@ View.prototype.render = function(state) {
 
     this.clientSecurities.innerHTML = "";
 
-}
+    this.renderClient(state.client);
+};
+
+View.prototype.renderClient = function(client) {
+    var clientImage = document.getElementById("client-image");
+    clientImage.src = client.imageURL;
+
+    var clientNameContainer = document.getElementById("client-name");
+    clientNameContainer.innerHTML = "";
+    clientNameContainer.innerText = client.firstName + " " + client.lastName;
+
+    var riskNumberImage = document.getElementById("client-risk-number");
+    riskNumberImage.src = "risk-numbers/r" + client.riskNumber + ".svg";
+
+    var clientGoalSpan = document.getElementById("client-goal");
+    clientGoalSpan.innerHTML = "";
+    clientGoalSpan.innerText = client.goal;
+};
 
 function addSecurity(container, security) {
     var img = document.createElement('img');

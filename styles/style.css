@@ -86,3 +86,7 @@ p {
 .risk-number-img {
     width: 3em;
 }
+
+.client-image img {
+    border-radius: 20px;
+}
