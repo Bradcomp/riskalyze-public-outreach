@@ -135,8 +135,8 @@ window.data = [
     "volatility": 18.08
   },
   {
-    "name": "Solar Capital Prf",
-    "symbol": "QISHT",
+    "name": "Data Wizards Inc.",
+    "symbol": "BOND",
     "riskNumber": 53,
     "worstCase": -10.35,
     "bestCase": 18.07,
@@ -163,7 +163,7 @@ window.data = [
   },
   {
     "name": "Buffalo Wild Wings",
-    "symbol": "SIXH",
+    "symbol": "OWWW",
     "riskNumber": 96,
     "worstCase": -38.54,
     "bestCase": 56.53,
@@ -207,8 +207,8 @@ window.data = [
     "volatility": 22.43
   },
   {
-    "name": "Emergent Biosolutions",
-    "symbol": "OSJH",
+    "name": "Are You reading this?",
+    "symbol": "NERD",
     "riskNumber": 97,
     "worstCase": -40.75,
     "bestCase": 55.24,
@@ -234,8 +234,8 @@ window.data = [
     "volatility": 27.95
   },
   {
-    "name": "Interactive Intelligence",
-    "symbol": "SJXIOH",
+    "name": "Mike Stone",
+    "symbol": "YOUKNOW",
     "riskNumber": 97,
     "worstCase": -41.56,
     "bestCase": 60.65,
