@@ -9,23 +9,43 @@ p {
 }
 
 #securities, #client-securities {
-    min-height: 15px;
+    min-height: 60px;
+    border: 1px solid #7E8890;
+    box-shadow: -11px 6px 25px -6px rgba(117,117,117,1);
+    border-radius: 6px;
+
+}
+ul {
+    -webkit-padding-start: 0;
 }
 
-#securities, #client-securities {
-    min-height: 15px
+li strong {
+    float: left;
 }
+li img {
+    float: right;
+}
+body section {
+    max-width: 600px;
+    margin: auto
+}
+
 header {
     background-color:#BCBEC0;
      font-size: 50px;
      color:#0099cd;
      text-align: center;
+     padding: 10px 60px;
      max-width: 100%;
 }
 li {
     background-color: azure;
     border-color: black;
     border-width: 2px;
+    margin: 3px;
+    padding: 10px 30px;
+    height: 3em;
+    list-style-type: none;
 }
 p {
     text-align: right
@@ -43,4 +63,7 @@ footer {
 #client-panel{
 }
 #securities-panel{
+}
+.risk-number-img {
+    width: 3em;
 }
