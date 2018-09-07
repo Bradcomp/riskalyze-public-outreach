@@ -38,7 +38,8 @@ header {
      text-align: center;
      padding: 10px 60px;
      max-width: 100%;
-     font-family: "Garamond"
+     font-family: "Garamond";
+     margin-bottom: 15px;
 }
 li {
     background-color: azure;
@@ -74,6 +75,7 @@ p {
     border: solid lightgray 1px;
     border-radius: 3px;
     padding:3px;
+    cursor: pointer;
 }
 .advertisement img {
     width: 200px;
