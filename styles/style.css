@@ -39,7 +39,8 @@ header {
      padding: 10px 60px;
      max-width: 100%;
      font-family: "Garamond";
-     text-shadow: 2px 2px #A9A9A9
+     text-shadow: 2px 2px #A9A9A9;
+     margin-bottom: 15px
 }
 li {
     background-color: azure;
@@ -75,6 +76,7 @@ p {
     border: solid lightgray 1px;
     border-radius: 3px;
     padding:3px;
+    cursor: pointer;
 }
 .advertisement img {
     width: 200px;
