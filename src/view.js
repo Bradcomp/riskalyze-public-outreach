@@ -51,17 +51,17 @@ View.prototype.renderPortfolio = function (portfolio) {
 
     var bestCase = document.getElementById("portfolio-best-case-number");
     bestCase.innerHTML = "";
-    bestCase.innerHTML = portfolio.bestCase.toString();
+    bestCase.innerHTML = portfolio.bestCase.toFixed(4);
 
     var worstCase = document.getElementById("portfolio-worst-case-number");
     worstCase.innerHTML = "";
-    worstCase.innerHTML = portfolio.worstCase.toString();
+    worstCase.innerHTML = portfolio.worstCase.toFixed(4);
 };
 
 View.prototype.renderScore = function (score) {
     var scoreElement = document.getElementById("score-value");
     scoreElement.innerHTML = "";
-    scoreElement.innerHTML = score.toString();
+    scoreElement.innerHTML = score.toFixed(0);
 };
 
 function addSecurity(container, security) {

@@ -30,11 +30,10 @@ Game.prototype.newClient = function() {
 }
 
 Game.prototype.update = function() {
+    if (!this.state.client) return;
     let portfolio = calculatePortfolioRating(this.state.client.securities);
     let score = calculateProfileScore(this.state.client);
-
     this.view.renderPortfolio(portfolio);
     this.view.renderScore(score);
 
-    console.log(this.state.securities.length, this.state.client.securities.length);
-}
+  }

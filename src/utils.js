@@ -11,7 +11,9 @@ function randomPick(arr) {
 
 //todo fix the properties of the inputs
 function calculateProfileScore(client) {
+    console.log(client.securities);
     let portfolio = calculatePortfolioRating(client.securities);
+    console.log(portfolio);
     let score = (portfolio.worstCase + ((portfolio.bestCase - portfolio.worstCase) / 2)) - client.goal;
     score = 10 + score;
 
@@ -30,6 +32,8 @@ function calculateProfileScore(client) {
     }
     else if (riskNumberDiff <= 30) {
         return score * 99;
+    } else {
+        return 0;
     }
 }
 
@@ -57,7 +61,7 @@ function calculatePortfolioRating(securities) {
 
     return {
         "riskNumber" : averageRiskNumber,
-        "bestCase" : averageMax.toFixed(4),
-        "worstCase" : averageMin.toFixed(4)
+        "bestCase" : averageMax,
+        "worstCase" : averageMin
     };
 }
