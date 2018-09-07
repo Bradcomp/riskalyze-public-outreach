@@ -38,7 +38,8 @@ header {
      text-align: center;
      padding: 10px 60px;
      max-width: 100%;
-     font-family: "Garamond"
+     font-family: "Garamond";
+     text-shadow: 2px 2px #A9A9A9
 }
 li {
     background-color: azure;
@@ -79,6 +80,8 @@ p {
     width: 200px;
 }
 #client-panel{
+    overflow: scroll;
+    max-height: 450px
 }
 #security-panel{
     max-height: 500px;

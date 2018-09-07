@@ -9,6 +9,15 @@ window.data = [
     "volatility": 20.53
   },
   {
+    "name": "Mike A. Is A Nerd",
+    "symbol": "NEERD",
+    "riskNumber": 30,
+    "worstCase": -4.2,
+    "bestCase": 8.7,
+    "return": 2.25,
+    "volatility": 3.93
+  },
+  {
     "name": "Microsoft Corporation",
     "symbol": "GDOHS",
     "riskNumber": 87,
@@ -43,6 +52,15 @@ window.data = [
     "bestCase": 15.88,
     "return": 1.71,
     "volatility": 8.64
+  },
+  {
+    "name": "Whoyouwit Mac Fund",
+    "symbol": "BERNIE",
+    "riskNumber": 24,
+    "worstCase": -2.66,
+    "bestCase": 4.73,
+    "return": 1.03,
+    "volatility": 2.25
   },
   {
     "name": "Southwest Airlines",
@@ -124,6 +142,15 @@ window.data = [
     "bestCase": 22.92,
     "return": 4.65,
     "volatility": 11.14
+  },
+  {
+    "name": "#WHO??",
+    "symbol": "WHO",
+    "riskNumber": 22,
+    "worstCase": -2,
+    "bestCase": 4.84,
+    "return": 1.42,
+    "volatility": 2.08
   },
   {
     "name": "Walt Disney cOMPANY",
@@ -342,24 +369,6 @@ window.data = [
     "volatility": 1.56
   },
   {
-    "name": "Whoyouwit Mac Fund",
-    "symbol": "BERNIE",
-    "riskNumber": 24,
-    "worstCase": -2.66,
-    "bestCase": 4.73,
-    "return": 1.03,
-    "volatility": 2.25
-  },
-  {
-    "name": "Mike A. Is A Nerd",
-    "symbol": "NEERD",
-    "riskNumber": 30,
-    "worstCase": -4.2,
-    "bestCase": 8.7,
-    "return": 2.25,
-    "volatility": 3.93
-  },
-  {
     "name": "Matt P. Is A Nerd",
     "symbol": "MPN",
     "riskNumber": 23,
@@ -367,15 +376,6 @@ window.data = [
     "bestCase": 5.84,
     "return": 1.82,
     "volatility": 2.46
-  },
-  {
-    "name": "#WHO??",
-    "symbol": "WHO",
-    "riskNumber": 22,
-    "worstCase": -2,
-    "bestCase": 4.84,
-    "return": 1.42,
-    "volatility": 2.08
   },
   {
     "name": "Do the Palumbo",
