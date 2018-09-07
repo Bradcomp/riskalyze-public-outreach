@@ -63,7 +63,7 @@ window.data = [
     "volatility": 32.86
   },
   {
-    "name": "Bayerische Motoren Werke AG",
+    "name": "Pawn Stars.com",
     "symbol": "PWMN",
     "riskNumber": 97,
     "worstCase": -42.74,
@@ -135,8 +135,8 @@ window.data = [
     "volatility": 18.08
   },
   {
-    "name": "Solar Capital Prf",
-    "symbol": "QISHT",
+    "name": "Data Wizards Inc.",
+    "symbol": "BOND",
     "riskNumber": 53,
     "worstCase": -10.35,
     "bestCase": 18.07,
@@ -163,7 +163,7 @@ window.data = [
   },
   {
     "name": "Buffalo Wild Wings",
-    "symbol": "SIXH",
+    "symbol": "OWWW",
     "riskNumber": 96,
     "worstCase": -38.54,
     "bestCase": 56.53,
@@ -207,8 +207,8 @@ window.data = [
     "volatility": 22.43
   },
   {
-    "name": "Emergent Biosolutions",
-    "symbol": "OSJH",
+    "name": "Are You reading this?",
+    "symbol": "NERD",
     "riskNumber": 97,
     "worstCase": -40.75,
     "bestCase": 55.24,
@@ -234,8 +234,8 @@ window.data = [
     "volatility": 27.95
   },
   {
-    "name": "Interactive Intelligence",
-    "symbol": "SJXIOH",
+    "name": "Mike Stone",
+    "symbol": "YOUKNOW",
     "riskNumber": 97,
     "worstCase": -41.56,
     "bestCase": 60.65,
@@ -315,8 +315,8 @@ window.data = [
     "volatility": 39.49
   },
   {
-    "name": "Vanguard Interm-Term Bond Index Inv",
-    "symbol": "DHDOJ",
+    "name": "Vanguard Whatever",
+    "symbol": "IDGAF",
     "riskNumber": 27,
     "worstCase": -3.47,
     "bestCase": 8.07,
@@ -324,8 +324,8 @@ window.data = [
     "volatility": 3.52
   },
   {
-    "name": "Vanguard Mid Cap Index Admiral",
-    "symbol": "HSOHJ",
+    "name": "Bungalow Project",
+    "symbol": "BPJ",
     "riskNumber": 72,
     "worstCase": -15.71,
     "bestCase": 24.25,
@@ -333,7 +333,7 @@ window.data = [
     "volatility": 12.18
   },
   {
-    "name": "iShares 1-3 Year Credit Bond",
+    "name": "Haidouken",
     "symbol": "HKDOW",
     "riskNumber": 17,
     "worstCase": -1.29,
@@ -342,8 +342,8 @@ window.data = [
     "volatility": 1.56
   },
   {
-    "name": "SPDR® Nuveen Barclays ST Muni Bd ETF",
-    "symbol": "QOWHX",
+    "name": "Whoyouwit Mac Fund",
+    "symbol": "BERNIE",
     "riskNumber": 24,
     "worstCase": -2.66,
     "bestCase": 4.73,
@@ -351,8 +351,8 @@ window.data = [
     "volatility": 2.25
   },
   {
-    "name": "Western Asset Managed Municipals A",
-    "symbol": "PSJXK",
+    "name": "Mike A. Is A Nerd",
+    "symbol": "NEERD",
     "riskNumber": 30,
     "worstCase": -4.2,
     "bestCase": 8.7,
@@ -360,8 +360,8 @@ window.data = [
     "volatility": 3.93
   },
   {
-    "name": "PIMCO Total Return Active ETF",
-    "symbol": "JDOSJ",
+    "name": "Matt P. Is A Nerd",
+    "symbol": "MPN",
     "riskNumber": 23,
     "worstCase": -2.21,
     "bestCase": 5.84,
@@ -369,8 +369,8 @@ window.data = [
     "volatility": 2.46
   },
   {
-    "name": "Deutsche US Bond Index A",
-    "symbol": "KWOKS",
+    "name": "#WHO??",
+    "symbol": "WHO",
     "riskNumber": 22,
     "worstCase": -2,
     "bestCase": 4.84,
@@ -378,8 +378,8 @@ window.data = [
     "volatility": 2.08
   },
   {
-    "name": "ALASKA MUN BOND BANKALASKA MUN BOND",
-    "symbol": "XMZJS",
+    "name": "Do the Palumbo",
+    "symbol": "PLUM",
     "riskNumber": 46,
     "worstCase": -8.51,
     "bestCase": 13.51,
@@ -387,8 +387,8 @@ window.data = [
     "volatility": 6.71
   },
   {
-    "name": "First American High Income Bond Fd Cl B",
-    "symbol": "MXLSS",
+    "name": "Caffeine",
+    "symbol": "COFFEE",
     "riskNumber": 59,
     "worstCase": -11.96,
     "bestCase": 11.96,
@@ -396,8 +396,8 @@ window.data = [
     "volatility": 7.29
   },
   {
-    "name": "UBS Australian Bond Comp",
-    "symbol": "OSTKA",
+    "name": "Risk 99",
+    "symbol": "GOTCHA",
     "riskNumber": 5,
     "worstCase": -0.3,
     "bestCase": 6.37,
@@ -405,8 +405,8 @@ window.data = [
     "volatility": 2.03
   },
   {
-    "name": "American Funds Interm Bd Fd of Amer C",
-    "symbol": "QPSIW",
+    "name": "Budweiser",
+    "symbol": "TONY",
     "riskNumber": 21,
     "worstCase": -1.71,
     "bestCase": 3.16,
@@ -414,8 +414,8 @@ window.data = [
     "volatility": 1.48
   },
   {
-    "name": "The Tax-Exempt Bond Fund of America Class",
-    "symbol": "OSJSO",
+    "name": "Banana Stand",
+    "symbol": "BSTAND",
     "riskNumber": 27,
     "worstCase": -3.41,
     "bestCase": 7.33,
