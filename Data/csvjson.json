@@ -90,8 +90,8 @@ window.data = [
     "volatility": 60.99
   },
   {
-    "name": "Intelsat S.A.",
-    "symbol": "BDOC",
+    "name": "Kawaii Inc.",
+    "symbol": "OHAI",
     "riskNumber": 99,
     "worstCase": -98.39,
     "bestCase": 101.66,
