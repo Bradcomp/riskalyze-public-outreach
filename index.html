@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>GAME TIME!</title>
-    <link rel="stylesheet" href="styles/dragula.css">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    <!-- page content -->
-    <header>
-        SO YOU WANT TO BE AN ADVISOR?
-    </header>
 
-    <section>
-      <h2>Available Securities</h2>
-      <ul id="securities">
+<head>
+  <meta charset="utf-8">
+  <title>GAME TIME!</title>
+  <link rel="stylesheet" href="styles/dragula.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
 
-      </ul>
+<body>
+  <!-- page content -->
+  <header>
+    SO YOU WANT TO BE AN ADVISOR?
+  </header>
 
-    <section class=portfolio>
-      <h2>Client Portfolio</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+      </div>
+      <div class="col-4">
+        <div id="security-panel">
+          <h2>Available Securities</h2>
+          <ul id="securities">
 
-        <p>Goal:</p><img class=risk_number />
-        <ul id="client-securities">
+          </ul>
+        </div>
+      </div>
+      <div class="col-5">
+        <div id="client-panel">
+          <h2>Client Portfolio</h2>
 
-       </ul>
+          <p>Goal:</p>
+          <img class="risk_number" />
+          <ul id="client-securities">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>Score:</footer>
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
+  <script src="Data/csvjson.json" type="text/javascript"></script>
+  <script src="src/utils.js"></script>
+  <script src='src/security.js'></script>
+  <script src='src/state.js'></script>
+  <script src='src/view.js'></script>
+  <script src='src/client.js'></script>
+  <script src="src/game.js"></script>
+  <script>
+    window.game = new Game();
+    game.start();
+    game.newClient();
+  </script>
+  <div class=advertisement>
+    <img width="350px" src=risk-numbers/5850506.jpg>
+    <img width="350px" src=risk-numbers/1528548.png>
+    <footer>Here at Evan Pope Dog Escort Services, we believe that every dog should experience the maximum pleasure of a walk. We believe that no dog should be left unattended without an escort.</footer>
+  </div>
+</body>
 
-    </section>
-    <footer>Score:</footer>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
-    <script src="Data/csvjson.json" type="text/javascript"></script>
-    <script src="src/utils.js"></script>
-    <script src='src/security.js'></script>
-    <script src='src/state.js'></script>
-    <script src='src/view.js'></script>
-    <script src='src/client.js'></script>
-    <script src="src/game.js"></script>
-    <script>
-      window.game = new Game();
-      game.start();
-      game.newClient();
-    </script>
-  </body>
 </html>

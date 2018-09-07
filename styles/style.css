@@ -2,7 +2,7 @@ html{
     background-color: #EFF1F6
 }
 section {
-    overflow: scroll
+    overflow: scroll;
 }
 p {
     text-align: right
@@ -49,6 +49,20 @@ li {
 }
 p {
     text-align: right
+}
+.advertisement {
+    position: absolute;
+    display: block;
+    left: 7px;
+    top: 100px;
+    max-width: 350px;
+}
+footer {
+    font-size :14px;
+}
+#client-panel{
+}
+#securities-panel{
 }
 .risk-number-img {
     width: 3em;
