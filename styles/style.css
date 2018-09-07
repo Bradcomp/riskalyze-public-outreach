@@ -33,9 +33,12 @@ p {
 .advertisement {
     position: absolute;
     display: block;
-    left: 0;
+    left: 7px;
     top: 100px;
-    max-width: 456px
+    max-width: 350px;
+}
+footer {
+    font-size :14px;
 }
 #client-panel{
 }
