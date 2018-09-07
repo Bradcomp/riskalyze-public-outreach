@@ -8,12 +8,13 @@ p {
     text-align: right
 }
 
-#securities, #client-securities {
+#securities, #client-securities, #security-panel, #client-panel {
     min-height: 60px;
     border: 1px solid #7E8890;
     box-shadow: -11px 6px 25px -6px rgba(117,117,117,1);
     border-radius: 6px;
-
+    padding: 4px;
+    margin: 4px;
 }
 ul {
     -webkit-padding-start: 0;
@@ -45,24 +46,36 @@ li {
     margin: 3px;
     padding: 10px 30px;
     height: 3em;
+    min-height: 74px;
     list-style-type: none;
+    text-wrap: none;
+    overflow: hidden;
 }
 p {
     text-align: right
+}
+#client-panel .risk-number img, #client-panel .client-image img {
+    width: 100%;
 }
 .advertisement {
     position: absolute;
     display: block;
     left: 7px;
     top: 100px;
-    max-width: 350px;
+    max-width: 208px;
+    font-size: 10px;
+    border: solid lightgray 1px;
+    border-radius: 3px;
+    padding:3px;
 }
-footer {
-    font-size :14px;
+.advertisement img {
+    width: 200px;
 }
 #client-panel{
 }
-#securities-panel{
+#security-panel{
+    max-height: 500px;
+    overflow-y: scroll;
 }
 .risk-number-img {
     width: 3em;

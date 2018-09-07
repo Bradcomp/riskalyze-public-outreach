@@ -17,9 +17,9 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class="col-2">
       </div>
-      <div class="col-4">
+      <div class="col-5">
         <div id="security-panel">
           <h2>Available Securities</h2>
           <ul id="securities">
@@ -28,11 +28,32 @@
         </div>
       </div>
       <div class="col-5">
+        <div class="row">
+          <div class="col-6">
+            <button class="btn btn-primary">New Client</button>
+          </div>
+          <div class="score col-6">Score: <span class="scoreValue">10000</span> points</div>
+        </div>
         <div id="client-panel">
-          <h2>Client Portfolio</h2>
+          <div class="row">
+            <h2 class="col-12">Client Portfolio</h2>
+          </div>
+          <div class="row">
+            <div class="risk-number col-2">
+              <img src="risk-numbers/r0.svg" />
+            </div>
+            <div class="client-image col-3">
+              <img src="risk-numbers/r99.svg" />
+            </div>
+            <div class="col-5">
+              <span id="client-name">Bert Qwerty</span>
+            </div>
+            <div class="col-2">
+              <div>Goal:</div>
+              <div><span id="client-goal">4</span>%</div>
+            </div>
+          </div>
 
-          <p>Goal:</p>
-          <img class="risk_number" />
           <ul id="client-securities">
             
           </ul>
@@ -40,7 +61,6 @@
       </div>
     </div>
   </div>
-  <footer>Score:</footer>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
   <script src="Data/csvjson.json" type="text/javascript"></script>
@@ -56,8 +76,8 @@
     game.newClient();
   </script>
   <div class=advertisement>
-    <img width="350px" src=risk-numbers/5850506.jpg>
-    <img width="350px" src=risk-numbers/1528548.png>
+    <img src=risk-numbers/5850506.jpg>
+    <img src=risk-numbers/1528548.png>
     <footer>Here at Evan Pope Dog Escort Services, we believe that every dog should experience the maximum pleasure of a walk. We believe that no dog should be left unattended without an escort.</footer>
   </div>
 </body>
