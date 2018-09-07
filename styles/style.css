@@ -50,7 +50,13 @@ li {
     list-style-type: none;
     text-wrap: none;
     overflow: hidden;
+    cursor: grab;
 }
+
+li:active {
+    cursor: grabbing;
+}
+
 p {
     text-align: right
 }
