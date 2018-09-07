@@ -43,6 +43,7 @@ View.prototype.renderClient = function(client) {
     var clientGoalSpan = document.getElementById("client-goal");
     clientGoalSpan.innerHTML = "";
     clientGoalSpan.innerText = client.goal;
+    this.renderScore(0);
 };
 
 View.prototype.renderPortfolio = function (portfolio) {
