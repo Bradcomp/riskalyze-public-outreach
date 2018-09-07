@@ -63,8 +63,15 @@ li:active {
 p {
     text-align: right
 }
-#client-panel .risk-number img, #client-panel .client-image img {
+#client-panel .risk-number img, #client-panel .client-image img, #portfolio-risk-number {
     width: 100%;
+}
+.portfolio-worst-case {
+    color : red;
+}
+.portfolio-best-case {
+    color: green;
+    padding-left: 15px;
 }
 .advertisement {
     position: absolute;

@@ -32,7 +32,7 @@
           <div class="col-6">
             <button class="btn btn-primary" id="new-client-button">New Client</button>
           </div>
-          <div class="score col-6">Score: <span class="scoreValue">10000</span> points</div>
+          <div class="score col-6">Score: <span id="score-value">10000</span> points</div>
         </div>
         <div id="client-panel">
           <div class="row">
@@ -51,6 +51,20 @@
             <div class="col-2">
               <div>Goal:</div>
               <div><span id="client-goal">4</span>%</div>
+            </div>
+          </div>
+
+          <div id="portfolio-panel" class="row">
+            <div class="col-4">
+              <img id="portfolio-risk-number" src="risk-numbers/r0.svg">
+            </div>
+            <div id="portfolio-performance" class="col-8">
+              <div class="portfolio-best-case">
+                <span id="portfolio-best-case-number">10</span>%
+              </div>
+              <div class="portfolio-worst-case">
+                <span id="portfolio-worst-case-number">-5</span>%
+              </div>
             </div>
           </div>
 

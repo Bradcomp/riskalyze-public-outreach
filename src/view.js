@@ -45,6 +45,25 @@ View.prototype.renderClient = function(client) {
     clientGoalSpan.innerText = client.goal;
 };
 
+View.prototype.renderPortfolio = function (portfolio) {
+    var riskNumberImage = document.getElementById("portfolio-risk-number");
+    riskNumberImage.src = "risk-numbers/r" + portfolio.riskNumber + ".svg";
+
+    var bestCase = document.getElementById("portfolio-best-case-number");
+    bestCase.innerHTML = "";
+    bestCase.innerHTML = portfolio.bestCase.toString();
+
+    var worstCase = document.getElementById("portfolio-worst-case-number");
+    worstCase.innerHTML = "";
+    worstCase.innerHTML = portfolio.worstCase.toString();
+};
+
+View.prototype.renderScore = function (score) {
+    var scoreElement = document.getElementById("score-value");
+    scoreElement.innerHTML = "";
+    scoreElement.innerHTML = score.toString();
+};
+
 function addSecurity(container, security) {
     var img = document.createElement('img');
     img.src = "risk-numbers/r" + security.riskNumber + ".svg";

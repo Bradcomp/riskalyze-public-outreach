@@ -10,8 +10,8 @@ function randomPick(arr) {
 }
 
 //todo fix the properties of the inputs
-function calculateProfileScore(securities, client) {
-    let portfolio = calculatePortfolioRating(securities);
+function calculateProfileScore(client) {
+    let portfolio = calculatePortfolioRating(client.securities);
     let score = (portfolio.worstCase + ((portfolio.bestCase - portfolio.worstCase) / 2)) - client.goal;
     score = 10 + score;
 
@@ -39,19 +39,25 @@ function calculatePortfolioRating(securities) {
     let totalMax = 0;
     let totalMin = 0;
 
-    securities.forEach(function(security) {
-        totalRiskNumber += security.riskNumber;
-        totalMax += security.bestCase;
-        totalMin += security.worstCase;
-    });
+    let averageRiskNumber = 0;
+    let averageMax = 0;
+    let averageMin = 0;
 
-    let averageRiskNumber = totalRiskNumber / securities.length;
-    let averageMax = totalMax / securities.length;
-    let averageMin = totalMin / securities.length;
+    if (securities.length != 0) {
+        securities.forEach(function (security) {
+            totalRiskNumber += security.riskNumber;
+            totalMax += security.bestCase;
+            totalMin += security.worstCase;
+        });
+
+        averageRiskNumber = Math.round(totalRiskNumber / securities.length);
+        averageMax = totalMax / securities.length;
+        averageMin = totalMin / securities.length;
+    }
 
     return {
         "riskNumber" : averageRiskNumber,
-        "bestCase" : averageMax,
-        "worstCase" : averageMin
+        "bestCase" : averageMax.toFixed(4),
+        "worstCase" : averageMin.toFixed(4)
     };
 }
